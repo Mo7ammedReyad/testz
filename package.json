@@ -1,0 +1,17 @@
+{
+  "name": "hono-firebase-auth-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "hono": "^3.12.0",
+    "firebase": "^10.7.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231121.0",
+    "wrangler": "^3.19.0"
+  }
+}

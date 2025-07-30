@@ -1,0 +1,7 @@
+name = "hono-firebase-auth"
+main = "index.js"
+compatibility_date = "2023-11-21"
+
+[vars]
+# In production, you should use environment variables for sensitive data
+# JWT_SECRET = "your-production-secret-here"
